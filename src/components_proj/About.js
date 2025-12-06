@@ -23,6 +23,7 @@ export default function About() // Displays the website's purpose and context.
                 <p>
                     Try out the search bar and the dropdown filter, today!
                 </p>
+                <div className = ""> </div>
         </div>
      
     </section>

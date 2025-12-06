@@ -3,7 +3,7 @@ import './header.css';
 import { Link } from 'react-router-dom'; // To use working links for Header tabs. 
 
 
-export default function Header()
+export default function Header() // Holds buttons and links these tabs to different pages
 {
   return(
     <nav class = "header">

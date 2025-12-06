@@ -81,7 +81,7 @@ export const resources = [
 
     // HOUSING RESOURCES
     {
-    id: 6,
+    id: 7,
     title: "Bay Area Filipino American Real Estate Professionals",
     org: "Filipino American Real Estate Professionals Association Bay Area, Inc.",
     blurb: "A Filipino American nonprofit organization dedicated to promoting the interests of Filipino American professionals by elevating professionalism and unifying the real estate community in the Bay Area.",
@@ -96,7 +96,7 @@ export const resources = [
 
     // LABOR RESOURCES
     {
-    id: 4,
+    id: 8,
     title: "Filipino Civic Engagement and Empowerment for Filipino Labor Workers",
     org: "Pilipino Workers Center (PWC)",
     blurb: "Aims to secure the dignity and safety of the PilipinX community in Southern California and build labor leaders in the domestic worker industry through power, leadership, and service.",
@@ -106,7 +106,7 @@ export const resources = [
     link: "https://www.pwcsc.org/"
     },
     {
-    id: 4,
+    id: 9,
     title: "Empowerment of Filipino American Architects and Engineers of SoCal",
     org: "Fil-Am Society of Architects and Engineers of Southern California (FASAE-SOCAL)",
     blurb: "An association meant to represent FilipinX American architects and engineers through networks, technical and business practices, and professional growth.",
@@ -116,7 +116,7 @@ export const resources = [
     link: "https://www.fasae-socal.org/"
     },
     {
-    id: 4,
+    id: 10,
     title: "Filipino American Fashion Artists and Designers",
     org: "Fil-Am Association of Designers (FAAD)",
     blurb: "A nonprofit organization founded by Lou Razon meant to represent creative FilipinX American artists and designers in the fashion industry. (Contact Info: (818-242-2088)",
@@ -126,7 +126,7 @@ export const resources = [
     link: "[NONE]"
     },
     {
-    id: 4,
+    id: 11,
     title: "Filipino American Nurses in SoCal",
     org: "Philippine Nurses Association of Southern California (PNSAC, Inc.)",
     blurb: "A professional nonprofit organization consists of Filipino American nurses in Southern California that promotes professional excellence and contributions to healthcare and society.",
@@ -136,7 +136,7 @@ export const resources = [
     link: "https://mypnasc.org/"
     },
     {
-    id: 4,
+    id: 12,
     title: "Filipino American Lawyers of San Diego Promoting Services",
     org: "Filipino American Lawyers of San Diego",
     blurb: "A volunteer nonprofit organization dedicated to advancing Filipino American legal professionals who promote and provide educational, networking, and business opportunities for its members, along with volunteer events and legal clinics.",
@@ -146,7 +146,7 @@ export const resources = [
     link: "https://falsd.org/"
     },
     {
-    id: 4,
+    id: 13,
     title: "Filipino American Veterans Association in San Diego",
     org: "Filipino American Veterans Association (FAVA)",
     blurb: "A Filipino American veteran association that serves all American veterans from all branches of military service in San Diego's Filipino American community. (Contact info: (619)-232-2692)",
@@ -158,7 +158,7 @@ export const resources = [
 
     // EDUCATION RESOURCES
     {
-    id: 4,
+    id: 14,
     title: "San Francisco After School and Summer Program for K-8 Filipino American Students",
     org: "Filipino Education Center Galing Bata",
     blurb: "A welcoming Filipino American bilingual/bicultural after school and summer program for K-8th students, educating Filipino American children in San Francisco for Filipino families of all backgrounds.",
@@ -171,7 +171,7 @@ export const resources = [
 
     // ARTS AND CULTURE
     {
-    id: 5,
+    id: 15,
     title: "Promoting FilAm Arts and Culture Through the Community",
     org: "FilAm ARTS",
     blurb: "Dedicated to promoting and empowering FilipinX American artists and culture bearers by sharing resources, providing platforms, and building community",
@@ -181,7 +181,7 @@ export const resources = [
     link: "https://www.filamartsla.org/"
     },
     { // Media
-    id: 7,
+    id: 16,
     title: "Filipino American One Down Media For Stories To Be Heard Online",
     org: "One Down",
     blurb: "A leading Filipino American media brand that creates content that resonates with Filipino Americans, providing a platform where their stores and experiences are seen and heard through social media. (Contact Info: partnerships@one-down.com",
@@ -191,7 +191,7 @@ export const resources = [
     link: "https://onedown.media/"
     },
     { // Cultural Dance Groups
-    id: 7,
+    id: 17,
     title: "Malaya Dance Group (Los Angeles)",
     org: "Malaya Filipino American Dance Arts",
     blurb: "A Filipino American ensemble of performing artists, dancers, and musicians who embrace ancestral and present culture through traditional folk dance, to inspire future generations through the Tagalog message of malaya (to be free).",
@@ -204,7 +204,7 @@ export const resources = [
     // Traditional Martial Arts Groups (Kali/Arnis)
     
 
-]
+];
 
 
 

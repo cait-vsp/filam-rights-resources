@@ -21,7 +21,7 @@ export default function ResourceCard( {rsrc} ) {
                         </span>
                         <div className = "tag-list">
                             {rsrc.categories.map((cat) => (
-                                <span key = {cat} className = "tag-chip"></span>
+                                <span key = {cat} className = "tag-chip"> {cat} </span>
                             ))}
                         </div>
                     </div>
@@ -62,7 +62,7 @@ export default function ResourceCard( {rsrc} ) {
                         Go To Resource
                     </a>
                 ) : (
-                    <span className = "resource-card_Link resource-card_LinkDisabled">
+                    <span className = "resource-card_Link resource-card_Link--disabled">
                         Contact The Org Directly
                     </span>
                 )}

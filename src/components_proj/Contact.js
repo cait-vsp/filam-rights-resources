@@ -1,7 +1,7 @@
 import React from 'react';
 import '../app.css';
 import angelopfp from '../Images/pfp_png_bg_hidden-min.png';
-import caitlinpfp from '../Images/caitlin_pfp.png';
+import caitlinpfp from '../Images/caitlinPFP.png';
 
 
 export default function Contact()

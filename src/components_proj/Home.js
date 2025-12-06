@@ -1,5 +1,9 @@
-import React from 'react';
+import {useState, useMemo} from 'react';
 import '../app.css'; // for parallax
+import { Link } from 'react-router-dom';
+import SearchBar from './SearchBar';
+import ResourceCard from "./ResourceCard";
+import {resources} from '../data/resources';
 
 
 export default function Home() // This Home function is meant to hold search bar.
@@ -14,6 +18,7 @@ export default function Home() // This Home function is meant to hold search bar
         <p>
           Just type something into the search bar or click on a category from the dropdown.
         </p>
+        <SearchBar/>
       </div>
       
     </section>

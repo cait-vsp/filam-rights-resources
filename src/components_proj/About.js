@@ -1,5 +1,7 @@
 import React from 'react';
 import '../app.css';
+import filams from '../Images/Filipino-American-leaders.jpeg';
+
 
 
 export default function About() // Displays the website's purpose and context.
@@ -23,7 +25,9 @@ export default function About() // Displays the website's purpose and context.
                 <p>
                     Try out the search bar and the dropdown filter, today!
                 </p>
-                <div className = ""> </div>
+                <div> 
+                    <img className="filam-img" src = {filams} alt = "Fil-Ams"/>
+                </div>
         </div>
      
     </section>

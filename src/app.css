@@ -107,6 +107,17 @@ a:hover{
     flex-direction: column;
 }
 
+.filam-img{
+    display: block;
+    padding-top: 50px;
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+
+}
+
 
 /* For fade-in text animation */
 @keyframes fadeInText{

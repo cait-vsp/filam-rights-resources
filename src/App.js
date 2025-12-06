@@ -1,15 +1,22 @@
 import React from 'react';
-import './app.css';
 import Header from './components_proj/Header';
+import Home from './components_proj/Home';
+import About from './components_proj/About';
+import Contact from './components_proj/Contact';
+import { Routes, Route } from 'react-router-dom';
 
 
 export default function App()
 {
   return(
-    <div className = "parallax_background">
-      <Header/>
-      <h1 className = "title"> Filipino American Rights and Resources </h1>
-    </div>
+    <>
+        <Header/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+        </Routes>
+    </>
 
     
   );

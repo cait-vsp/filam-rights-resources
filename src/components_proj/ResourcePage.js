@@ -7,7 +7,7 @@ export default function ResourcePage(){
     return(
         <section className = "resource-grid">
             {resources.map((rsrc) => (
-                <ResourceCard key = {rsrc.id} rsrc = {resources} /> 
+                <ResourceCard key = {rsrc.id} rsrc = {rsrc} /> 
             )
         )}
         </section>

@@ -38,7 +38,7 @@
 
 /* For resource card blurb */
 
-.resource_card_Blurb{
+.resource-card_Blurb{
     font-size: 1.0rem;
     line-height: 1.46;
     margin: 0.26rem 0 0.6rem;
@@ -105,7 +105,7 @@
     text-decoration: none;
     border-radius: 999px;
     border: 1px solid #FAD646;
-    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3 ease;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .resource-card_Link:hover{
@@ -115,7 +115,7 @@
 
 /* For disabled link */
 
-.resource-card_LinkDisabled {
+.resource-card_Link--disabled {
     color: #ffffffcc;
     cursor: default;
     border: 0.9px dashed #ffffff69;

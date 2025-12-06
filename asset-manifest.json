@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/filam-rights-resources/static/css/main.0719b55b.css",
-    "main.js": "/filam-rights-resources/static/js/main.e4bf953c.js",
+    "main.css": "/filam-rights-resources/static/css/main.19dbff09.css",
+    "main.js": "/filam-rights-resources/static/js/main.11b96312.js",
     "static/media/pfp_png_bg_hidden-min.png": "/filam-rights-resources/static/media/pfp_png_bg_hidden-min.31958925badf65a0f73b.png",
     "static/media/upperclasswomen.png": "/filam-rights-resources/static/media/upperclasswomen.98c25cedfb9f1c04385c.png",
     "static/media/ocean.png": "/filam-rights-resources/static/media/ocean.13512f98d24bf48ea170.png",
     "static/media/filipinoculture.png": "/filam-rights-resources/static/media/filipinoculture.2b6642b414ccdc5dcbc4.png",
     "static/media/fan.png": "/filam-rights-resources/static/media/fan.e24e3af197e6529e9edf.png",
-    "static/media/caitlin_pfp.png": "/filam-rights-resources/static/media/caitlin_pfp.a0e55e1473fd7555f67b.png",
+    "static/media/caitlinPFP.png": "/filam-rights-resources/static/media/caitlinPFP.a0e55e1473fd7555f67b.png",
     "static/media/Filipino-American-leaders.jpeg": "/filam-rights-resources/static/media/Filipino-American-leaders.461caaee0346ce123fae.jpeg",
     "index.html": "/filam-rights-resources/index.html",
-    "main.0719b55b.css.map": "/filam-rights-resources/static/css/main.0719b55b.css.map",
-    "main.e4bf953c.js.map": "/filam-rights-resources/static/js/main.e4bf953c.js.map"
+    "main.19dbff09.css.map": "/filam-rights-resources/static/css/main.19dbff09.css.map",
+    "main.11b96312.js.map": "/filam-rights-resources/static/js/main.11b96312.js.map"
   },
   "entrypoints": [
-    "static/css/main.0719b55b.css",
-    "static/js/main.e4bf953c.js"
+    "static/css/main.19dbff09.css",
+    "static/js/main.11b96312.js"
   ]
 }

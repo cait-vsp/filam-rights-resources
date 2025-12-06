@@ -1,0 +1,122 @@
+.resource-card{
+    color: #B8DAF8;
+    background: #0c0c0ccc;
+    display: flex;
+    border-radius: 11px;
+    border: 0.5px solid #fcda534d; /* For Filipino themed colors */
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 1.25rem 1.5rem;
+
+}
+
+.resource-grid{
+    display: grid;
+    padding: 1.5rem 1rem;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+/* For resource card header */
+
+.resource-card_Header{
+    margin-bottom: 0.20rem;
+}
+
+.resource-card_Title{
+    font-size: 1.10rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.resource-card_Organization{
+    color: #FCE89E;
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    margin: 0.20rem 0 0;
+}
+
+/* For resource card blurb */
+
+.resource_card_Blurb{
+    font-size: 1.0rem;
+    line-height: 1.46;
+    margin: 0.26rem 0 0.6rem;
+}
+
+/* For resource card tag groups */
+
+.resource-card_Tags{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.resource-card_TagGroup{
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 0.26rem 0.5rem;
+}
+
+.tag-list{
+    flex-wrap: wrap;
+    gap: 0.26rem;
+    display: flex;
+}
+
+.tag-label{
+    color: #DEDCDC;
+    margin-right: 0.26rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.tag-chip{
+    font-size: 0.76rem;
+    padding: 0.16rem 0.46rem;
+    border-radius: 999px;
+    background: #ffffff17;
+    border: 0.9px solid #ffffff4d;
+}
+
+/* Region chips for resource cards */
+
+.tag-chip--region{
+    background: #fcda53ff;
+    border-color: #fcda53e6;
+}
+
+/* Footer link for resource cards */
+
+.resource-card_Footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+}
+
+.resource-card_Link{
+    color: #010101;
+    font-size: 0.86rem;
+    background: #FAD646;
+    font-size: 0.86rem;
+    font-weight: 600;
+    padding: 0.46rem 1.0rem;
+    text-decoration: none;
+    border-radius: 999px;
+    border: 1px solid #FAD646;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3 ease;
+}
+
+.resource-card_Link:hover{
+    background: #FEE57F;
+    box-shadow: 0 5px 10px #00000059;
+}
+
+/* For disabled link */
+
+.resource-card_LinkDisabled {
+    color: #ffffffcc;
+    cursor: default;
+    border: 0.9px dashed #ffffff69;
+}

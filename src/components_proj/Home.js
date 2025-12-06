@@ -2,7 +2,7 @@ import React from 'react';
 import '../app.css'; // for parallax
 
 
-export default function Home()
+export default function Home() // This Home function is meant to hold search bar.
 {
   return(
     <section className = "home_bg">

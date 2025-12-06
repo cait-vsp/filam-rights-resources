@@ -58,3 +58,7 @@ html, body{
 .contact-button:hover{
     background: #faeec1;
 }
+
+.resources-button:hover {
+    background: #d1fcc0;
+}

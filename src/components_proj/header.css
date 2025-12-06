@@ -3,6 +3,58 @@ html, body{
     margin: 0;
 }
 
-.parallax_header{
+.header{
+
+    position: relative;
+    height: 100px;
+    width: 100%;
     
+    /* Background Image for Header*/ 
+    background-image: url('../Images/upperclasswomen.png');
+
+    /* Applies the parallax scrolling effect to Header*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #fcda53; 
+
+
+    filter: brightness(50%);
+
+  
+}
+
+.header h2{
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
+
+.button{
+    background: transparent;
+    transition: 0.3s ease;
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    padding-top: 10px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background: #80bffe;
+}
+
+.about-button:hover {
+    background: #b67576
+}
+
+.contact-button:hover{
+    background: #faeec1;
 }

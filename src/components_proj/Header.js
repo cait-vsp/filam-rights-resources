@@ -1,14 +1,17 @@
 import React from 'react';
-import './app.css';
-export default function App()
+import './header.css';
+import { Link } from 'react-router-dom'; // To use working links for Header tabs. 
+
+
+export default function Header()
 {
   return(
-    <div>
-
-    <div class = "parallax_background"></div>
-
-      <div>
-      </div>
-    </div>
+    <nav class = "header">
+        <div>
+            <Link to = "/" className = "button home-button">Home</Link>
+            <Link to = "/about" className = "button about-button">About</Link>
+            <Link to = "/contact" className = "button contact-button">Contact</Link>
+        </div>
+    </nav>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../app.css';
-import filams from '../Images/Filipino-American-leaders.jpeg';
+import filams from '../Images/Filipino-American-leaders.jpeg'; // Filipino Americans pic
 
 
 

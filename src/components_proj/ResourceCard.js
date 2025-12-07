@@ -4,7 +4,7 @@ import "./resourceCards.css";
 export default function ResourceCard( {rsrc} ) {
     const holdsLink = rsrc.link && rsrc.link !== "[NONE]"; // checks to see if link exists and not null/empty
 
-    return (
+    return ( // Displays Resource Card in order: Title, Organization Name, Blurb, Categories, Language(s), Region(s), and Resource Link
         <article className = "resource-card">
             <header className = "resource-card_Header">
                 <h3 className = "resource-card_Title">{rsrc.title}</h3>

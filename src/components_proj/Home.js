@@ -44,7 +44,7 @@ export default function Home() // This Home function is meant to hold search bar
           A place to learn about Filipino American rights, history, culture, and community resources!
         </p>
         <p>
-          Just type in a keyword, name of an organization, city/region, category, language, into the search bar.
+          Just type in a keyword, the name of an organization, a city/region, a category, and/or a language, into the search bar.
         </p>
         <SearchBar query = {query} onQueryChange={setQuery}/>
 

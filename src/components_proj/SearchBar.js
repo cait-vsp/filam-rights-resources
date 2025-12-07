@@ -1,22 +1,19 @@
-import { useState } from 'react'; // uses useState 
 import './searchBar.css';
 
-export default function SearchBar( {onSearch})  
+export default function SearchBar({query, onQueryChange})
 {
-    const [input, setInput] = useState(""); // updates every time user types in something
-
-    const handleChange = (e) => {
-        const newValue = e.target.value;
-        setInput(newValue);
+    const handleQuery = (e) => { // Function runs when the user inputs something into the search bar
+        onQueryChange(e.target.value); // Event object holds new text
+      
     };
+
 
     return (
         <div className = "searchContainer">
             <input type = "text"
                 className = "searchInput"
-                placeholder = "Search..."
-                value = {input}
-                onChange = {handleChange}
+                value = {query ?? ""} // Always a valid string
+                onChange = {handleQuery}
             />
         </div>
     );

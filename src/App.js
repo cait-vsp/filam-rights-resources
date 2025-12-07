@@ -10,15 +10,17 @@ import { Routes, Route } from 'react-router-dom';
 
 export default function App()
 {
-  return( // Put </Home/> first as the first page user sees
+  return(
     <>
         <Header/>
-        <Home/>
+
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/resources" element={<ResourcePage/>}/>
+
+          <Route path = "*" element = {<Home/>} />
         </Routes>
     </>
 

@@ -10,7 +10,7 @@ export const resources = [
     title: "FilipinX Civic Engagement and Mental Health Resources",
     org: "LEAD FILIPINO",
     blurb: "A FilipinX nonprofit organization dedicated to promoting local engagement, education, and social awareness in the FilipinX American community.",
-    categories: ["Civic", "Health"],
+    categories: ["Civic", "Health", "Education"],
     location: ["San Jose, CA", "Northern California"],
     language: ["English"],
     link: "https://leadfilipino.org/"

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/filam-rights-resources/static/css/main.19dbff09.css",
-    "main.js": "/filam-rights-resources/static/js/main.f6f06f81.js",
+    "main.js": "/filam-rights-resources/static/js/main.0f8e66a3.js",
     "static/media/pfp_png_bg_hidden-min.png": "/filam-rights-resources/static/media/pfp_png_bg_hidden-min.31958925badf65a0f73b.png",
     "static/media/upperclasswomen.png": "/filam-rights-resources/static/media/upperclasswomen.98c25cedfb9f1c04385c.png",
     "static/media/ocean.png": "/filam-rights-resources/static/media/ocean.13512f98d24bf48ea170.png",
@@ -11,10 +11,10 @@
     "static/media/Filipino-American-leaders.jpeg": "/filam-rights-resources/static/media/Filipino-American-leaders.461caaee0346ce123fae.jpeg",
     "index.html": "/filam-rights-resources/index.html",
     "main.19dbff09.css.map": "/filam-rights-resources/static/css/main.19dbff09.css.map",
-    "main.f6f06f81.js.map": "/filam-rights-resources/static/js/main.f6f06f81.js.map"
+    "main.0f8e66a3.js.map": "/filam-rights-resources/static/js/main.0f8e66a3.js.map"
   },
   "entrypoints": [
     "static/css/main.19dbff09.css",
-    "static/js/main.f6f06f81.js"
+    "static/js/main.0f8e66a3.js"
   ]
 }

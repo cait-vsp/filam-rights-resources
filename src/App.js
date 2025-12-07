@@ -10,7 +10,7 @@ import { Routes, Route } from 'react-router-dom';
 
 export default function App()
 {
-  return(
+  return( // Put </Home/> first as the first page user sees
     <>
         <Header/>
         <Home/>

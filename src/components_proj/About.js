@@ -23,7 +23,7 @@ export default function About() // Displays the website's purpose and context.
                     No logins, no difficulty in obtaining information, and it's easy to use! 
                 </p>
                 <p>
-                    Try out the search bar and the dropdown filter, today!
+                    Try out the search bar, today!
                 </p>
                 <div> 
                     <img className="filam-img" src = {filams} alt = "Fil-Ams"/>

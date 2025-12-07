@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { useState } from 'react'; // uses useState 
 import './searchBar.css';
 
-export default function SearchBar( {onSearch})
+export default function SearchBar( {onSearch})  
 {
-    const [input, setInput] = useState("");
+    const [input, setInput] = useState(""); // updates every time user types in something
 
     const handleChange = (e) => {
         const newValue = e.target.value;

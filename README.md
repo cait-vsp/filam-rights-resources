@@ -1,4 +1,4 @@
-# Fil-Am Rights and Resouraces (CA)
+# Fil-Am Rights and Resources (CA)
 
 Made by: Caitlin San Pedro
 
